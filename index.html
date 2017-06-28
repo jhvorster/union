@@ -50,7 +50,9 @@
         
         <!-- GOOGLE FONTS -->
         <link href='http://fonts.googleapis.com/css?family=Droid+Serif:400italic' rel='stylesheet' type='text/css'>
-        
+
+        <!--Text scrolling-->
+        <script type="text/javascript" src="js/jquery.cycle2.js"></script>
 
         <style type="text/css">
         .auto-style3 {
@@ -156,12 +158,7 @@ margin: 0
 
         <!-- wrapper -->
         <div class="wrapper">
-        
             
-            
-            
-    
-                
             <!-- content wrap -->           
             <div id="content-wrap">
                 
@@ -172,11 +169,11 @@ margin: 0
                     <!-- Front slider -->
                     <div id="front-slides">
                         <div class="slides_container">
-                            <div class="slide">
-                                <a> <img src="img/slideshow/1.jpg"  alt="pic" width="940" height="200"  /></a>
+                            <div class="slide" caption="sjhgjkgkjgkj kj lide1">
+                                <a> <img src="img/slideshow/1.jpg"  alt="pic" width="940" height="200" /></a>
                                 
                             </div>
-                            <div class="slide">
+                            <div class="slide" caption="slide 2 567890">
                                 <a> <img src="img/slideshow/3.jpg" alt="pic" width="940" height="200"  /></a>
                                 
                             </div>
@@ -208,17 +205,30 @@ margin: 0
                     
                     <!-- Featured -->
                     <div class="featured-title">
-                        <div class="ribbon"><span style="height: 38px"><br></span></div>
+                        <div class="ribbon"><span style="height: 38px"></span></div>
                     </div>
-                    
-                    <p class="auto-style23">"What 
-                    would you look for in a school? What would you hope to find? 
-                    A place of nurturing and growth ... 
-                    a place of security ... a place of beauty... a place of 
-                    adventure .... or perhaps something even more? "</p>
-                    <br>
+                
+                    <div class="cycle-slideshow" data-cycle-fx="scrollHorz" data-cycle-timeout="5000" data-cycle-slides="> div">
+                        
+                            <div>
+                                
+                                <p class="auto-style23">"What 
+                                would you look for in a school? What would you hope to find? 
+                                A place of nurturing and growth ... 
+                                a place of security ... a place of beauty... a place of 
+                                adventure .... or perhaps something even more? "</p>
+                                <br>
+                            </div>
+                            <div>
+                                
+                                <p class="auto-style23">Graaff-Reinet welcomes you to the 2017 festival.</p>
+                                <br>
+                            </div>
+                        
+                    </div>
+            
 
-                    
+
                     <ul class="featured-posts">
                         <li>
                             <a href="http://www.unionpreschool.co.za" class="thumb" title="Union Pre-School">
